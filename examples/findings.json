@@ -1,0 +1,4 @@
+[
+  {"id":"f1","source":"gitleaks","secret_type":"aws_access_key","repo":"payments","file":"app.js","confidence":0.92,"exposure":"public","environment":"prod"},
+  {"id":"f2","source":"scanner","secret_type":"webhook_secret","repo":"internal-tools","file":"hooks.txt","confidence":0.55,"exposure":"internal","environment":"staging"}
+]

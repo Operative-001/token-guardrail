@@ -1,0 +1,27 @@
+{
+  "name": "token-guardrail",
+  "version": "0.1.0",
+  "description": "Turn secret scanner findings into owner-assigned revoke/rotate actions",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Operative-001",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Operative-001/token-guardrail.git"
+  },
+  "keywords": [
+    "security",
+    "secrets",
+    "token",
+    "incident-response",
+    "automation",
+    "devsecops"
+  ],
+  "bin": {
+    "token-guardrail": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
